@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- meta viewport tag needed to make site responsive on mobile devices https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>WCC Final Project</title>
+
+        <!-- including for some global styling -->
+        <link rel="stylesheet" href="../css/style.css">
+
+    </head>
+    <body>
+        <!-- if you have sub-pages think about adding a simple back button -->
+        <nav>
+            <a href="../">HOME</a>
+        </nav>
+        <header class="documentation-header">
+            <section class="center-text">
+                <h1>Harmonic Fluidity: The Art of Soundscapes and Motion</h1>
+                <h2>Zhengyang Li</h6>
+                <p>An interactive audiovisual installation immersing visitors in a fluid world of particles and sound, revealing the interplay between auditory influences and the invisible forces shaping our environment.
+                </p> 
+            </section>
+        </header>
+
+        <main class="documentation-page">
+            <section>
+                <div class="responsive-video centered-content">
+                    <iframe title="vimeo-player" src="https://vimeo.com/822913056?share=copy" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </section>
+            <section>
+                <h3>Introduction</h3>
+                <p>My aim instead was to make an interactive audiovisual installation that explores the relationship between sound and the movement of particles in a fluid-like environment. This artwork encourages visitors to consider the role of sound in shaping the environment and the invisible forces that govern the natural world. By interacting with the artwork, visitors become part of a symphony, giving expression to the constant flow of particles and music.</p>
+            </section>
+            <section>
+                <h3>Concept and Background Research</h3>
+                
+                <p>Since the late nineteenth century, the advent and popularity of video technology and the medium of film and television have created a real-time, reflective sonic stimulus for the viewer, demonstrating an astonishing creativity that has made video more epic and enjoyable and has gradually opened a whole new way of seeing and experiencing the world.</p>
+                <p>My purpose in making this audio-visual interactive work is to create an immersive atmosphere that evokes a sense of calm and serenity. When the viewer enters the field of this work it evokes a sense of peace and tranquillity. I want as many young people as possible to slow down from the city's fast-paced life and feel the present moment.
+                </p>
+                
+                <!-- if you have a full width image try make it not too tall -->
+                <img src="../IMAGE/term2.1.png"/>
+                
+            </section>
+            <section>
+                <h3>Technical Implementation</h3>
+
+                <!-- example of styling for three images, you can write your own styling -->
+                <div class="flex-container flex-basis-third">
+                    <div class="flex-item">
+                        <img src="../IMAGE/term2.3.png"/>
+                    </div>
+                    <div class="flex-item">
+                        <img src="../IMAGE/term2.4.png"/>
+                    </div>
+                </div>
+                
+                <p>My initial idea was to program in P5.js, but I found that P5.js could not send data to other software using Syphon or Spout to use the shader, and since I had learned Processing two years ago, I referred to the Coding train channel's instructional videos from six years ago and finally wrote it in Processing I finally wrote the code in processing and used Spout to send the data to Touchdesigner. </p>
+            
+                <!-- example of styling for three images, you can write your own styling -->
+
+                <p><a href="https://vimeo.com/822913056?share=copy" target="_blank"><h1>Click me to watch the video </h1></a></p>
+            </section>
+       
+        </main>
+
+        <footer>
+            <!-- normally information like contact details etc  -->
+            <!-- read more about semantic HTML https://www.w3schools.com/html/html5_semantic_elements.asp -->
+            
+         </footer>
+    </body>
+</html>
